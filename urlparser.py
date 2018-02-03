@@ -7,9 +7,7 @@ r = http.request('GET', url)
 r.status
 200
 s = str(r.data)
-# f = open("/home/prashant/parser/blog.html",'r')
-# s=f.read()
-# f.close()
+
 empty = []
 count = {}
 level = {}
